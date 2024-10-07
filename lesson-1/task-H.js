@@ -1,3 +1,6 @@
+// H. Метро
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/H/
+
 const minMaxCalc = (a, n) => {
     const min = n + (n - 1) * a;
     const max = n + (n + 1) * a;

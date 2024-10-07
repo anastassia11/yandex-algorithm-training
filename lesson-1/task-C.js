@@ -1,3 +1,6 @@
+// C. Телефонные номера
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/C/
+
 const calculate = (numbers) => {
     const isNum = (char) => {
         return char !== '('

@@ -1,3 +1,6 @@
+// J. Система линейных уравнений - 2
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/J/
+
 const calculate = (a, b, c, d, e, f) => {
     const delta = a * d - b * c;
     const deltaX = e * d - b * f;

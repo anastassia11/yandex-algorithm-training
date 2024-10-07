@@ -1,3 +1,6 @@
+// B. Треугольник
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/B/
+
 const calculate = (a, b, c) => {
     return ((a + b > c) && (a + c > b) && (b + c > a)) ? 'YES' : 'NO'
 };

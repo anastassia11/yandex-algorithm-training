@@ -1,3 +1,6 @@
+// E. Скорая помощь
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/E/
+
 const calculate = (K1, M, K2, P2, N2) => {
     let Q = 0.1;
     const Qapprox = (K2 - 1) / ((P2 - 1) * M + N2 - 1);

@@ -1,3 +1,6 @@
+// G. Детали
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/G/
+
 const calculate = (N, K, M) => {
     if (!(N >= K && K >= M)) return 0;
     const balls = Math.floor(N / K);

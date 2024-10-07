@@ -1,3 +1,6 @@
+// A. Кондиционер
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/A/
+
 const calculate = ({ troom, tcond, mode }) => {
     switch (mode) {
         case 'freeze':

@@ -1,3 +1,6 @@
+// F. Расстановка ноутбуков
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/F/
+
 const calculate = (A1, B1, A2, B2) => {
     const possibilities = [
         [Math.max(A1, A2), B1 + B2],

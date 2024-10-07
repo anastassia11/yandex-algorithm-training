@@ -1,3 +1,6 @@
+// I. Узник замка Иф
+// Условия задачи здесь: https://contest.yandex.ru/contest/27393/problems/I/
+
 const calculate = (A, B, C, D, E) => {
     if ((A <= D && B <= E) || (A <= E && B <= D)
         || (A <= D && C <= E) || (A <= E && C <= D)
