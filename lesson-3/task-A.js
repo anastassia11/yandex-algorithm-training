@@ -2,14 +2,14 @@
 // Условия задачи здесь: https://contest.yandex.ru/contest/27663/problems/A/
 
 const calculate = (arr) => {
-    const uniqArr = new Set(arr.map(num => Number(num.replace(',', '.'))).filter(num => !isNaN(num)));
+    const uniqArr = new Set([...arr]);
     return uniqArr.size;
 };
 
-let res;
-process.stdin.on('data', data => {
-    const arr = data.toString().trim().split(' ').filter(item => item !== '');
-    res = calculate(arr);
-    process.stdout.write(res.toString());
-    process.exit();
-});
+const fs = require('fs');
+let fileContent = fs.readFileSync("input.txt", "utf8");
+
+const arr = fileContent.toString().trim().split(' ');
+const result = calculate(arr);
+
+fs.writeFileSync("output.txt", result.toString());
